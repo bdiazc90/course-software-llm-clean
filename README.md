@@ -1,5 +1,5 @@
 # 🚀 AI Engineering & Clean Architecture
-**Duración:** 32 horas (8 clases 4 3 horas)  
+**Duración:** 32 horas (8 clases de 4 horas)  
 **Nivel:** Mid-level Developers 
 
 ---
