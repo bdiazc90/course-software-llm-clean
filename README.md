@@ -1,215 +1,179 @@
 # 🚀 AI Engineering & Clean Architecture
-**Duración:** 24 horas (8 clases de 3 horas)  
+**Duración:** 32 horas (8 clases 4 3 horas)  
 **Nivel:** Mid-level Developers 
-
-### 📦 Proyecto Integrador: **"AI Business Intelligence Platform"**
-Construcción desde cero de una plataforma empresarial con integración de LLMs, evolucionando desde conceptos básicos hasta arquitectura profesional.
 
 ---
 
 ## 📊 MALLA CURRICULAR
 
-### **PARTE 1: INTEGRACIÓN AVANZADA CON LLMs** (15 horas)
+### **PARTE 1: FUNDAMENTOS Y DISEÑO DE PRODUCTO IA** (8 horas)
 
-#### **Clase 1: "Primera Conexión: Integrando LLMs desde Cero"**
-- **Objetivos de aprendizaje:**
-  - Implementar integración básica con Gemini API/SDK
-  - Comprender autenticación y manejo de tokens
-  - Crear primera aplicación funcional con IA
+#### **Clase 1: "IA en 2025: Del Hype a la Implementación Real"** (4 horas)
+- **Bloque 1 - Estado del Arte IA (2h):**
+  - Evolución: GPT → Multimodal → Agentes → RAG
+  - Landscape actual: OpenAI, Anthropic, Google, Meta
+  - Casos de éxito/fracaso en LATAM
+  - Oportunidades verticales no exploradas
+
+- **Bloque 2 - Workshop: Ideación de Proyectos (2h):**
+  - Design Thinking para productos IA
+  - Identificación de problemas verticales
+  - Formación de equipos (3-4 personas)
+  - Pitch inicial de 3 ideas por equipo
+
+**Resultado:** Cada equipo con 1 proyecto vertical definido
+
+#### **Clase 2: "De la Idea al MVP: Metodología AI-First"** (4 horas)
+- **Bloque 1 - Lean AI Canvas (2h):**
+  - Adaptación de Lean Canvas para productos IA
+  - Definición de métricas de éxito
+  - Estimación de costos LLM/API
+  - Risk assessment técnico
+
+- **Bloque 2 - Sprint Planning IA (2h):**
+  - User stories con componente IA
+  - Prototipado rápido con no-code
+  - Roadmap de 6 clases
+  - Setup inicial del proyecto
+
+**Resultado:** Canvas completo + Sprint plan + Repo iniciado
+
+---
+
+### **PARTE 2: INTEGRACIÓN AVANZADA CON LLMs** (16 horas)
+
+#### **Clase 3: "Primera Integración: LLMs desde Cero"**
+- **Objetivos:**
+  - Integrar Gemini API según necesidades del proyecto
+  - Implementar funcionalidades básicas de IA
+  - Crear primera versión funcional
   
 - **Conceptos clave:**
-  - API Keys y autenticación segura
-  - Estructura de requests/responses LLM
+  - Gemini SDK setup y autenticación
+  - Structured outputs
+  - Error handling y retry logic
   - Rate limiting básico
-  - Manejo de errores HTTP
   
 - **Avances en proyecto:**
-  - Setup inicial del proyecto Business Intelligence
-  - Integración funcional con Gemini 2.0 Flash
-  - CLI tool para consultas básicas
+  - Setup inicial con Gemini 2.5
+  - Primera feature con IA funcionando
+  - API REST básica documentada
   
-- **Resultados esperados:**
-  - Conexión estable con Gemini API
-  - Aplicación de consola funcional
-  - Manejo básico de errores
+- **Resultados:**
+  - MVP funcional del proyecto elegido
+  - Integración estable con LLM
+  - Primeras métricas de performance
+
+#### **Clase 4: "Procesamiento Avanzado y Multi-Modal"**
+- **Objetivos:**
+  - Expandir capacidades según tipo de proyecto
+  - Implementar pipelines de procesamiento
+  - Gestionar diferentes tipos de input/output
+  
+- **Conceptos clave:**
+  - Multi-modal processing (texto/imagen/audio)
+  - Pipeline architectures
+  - Streaming responses
+  - Context management
+  
+- **Avances en proyecto:**
+  - Features complejas implementadas
+  - Sistema de procesamiento robusto
+  - Manejo de casos edge
+  
+- **Resultados:**
+  - Aplicación con funcionalidad completa
+  - Soporte para casos de uso complejos
+  - Dashboard de monitoreo
+
+#### **Clase 5: "RAG y Gestión de Conocimiento"**
+- **Objetivos:**
+  - Implementar RAG adaptado al dominio
+  - Crear base de conocimiento especializada
+  - Búsqueda semántica contextual
+  
+- **Conceptos clave:**
+  - Vector databases
+  - Embeddings optimization
+  - Hybrid search strategies
+  - Knowledge graphs basics
+  
+- **Avances en proyecto:**
+  - RAG funcional con datos del dominio
+  - Sistema de búsqueda inteligente
+  - Q&A contextualizado
+  
+- **Resultados:**
+  - Base de conocimiento operativa
+  - Mejora significativa en respuestas
+  - API de consultas avanzadas
+
+#### **Clase 6: "Producción y Escalabilidad"**
+- **Objetivos:**
+  - Preparar sistema para producción
+  - Optimizar costos y performance
+  - Implementar seguridad y compliance
+  
+- **Conceptos clave:**
+  - Async processing patterns
+  - Cost optimization strategies
+  - Security best practices
+  - Monitoring y observability
+  
+- **Avances en proyecto:**
+  - Sistema production-ready
+  - Procesamiento escalable
+  - Seguridad implementada
+  
+- **Resultados:**
+  - Aplicación lista para deploy
+  - Métricas de costo optimizadas
+  - Sistema auditable
 
 ---
 
-#### **Clase 2: "Gestión Profesional de Prompts y Contexto"**
-- **Objetivos de aprendizaje:**
-  - Estructurar prompts efectivos
-  - Implementar gestión de contexto y memoria
-  - Optimizar respuestas para casos de negocio
+### **PARTE 3: CLEAN ARCHITECTURE & REFACTORING** (8 horas)
+
+#### **Clase 7: "Clean Architecture para Sistemas IA"**
+- **Objetivos:**
+  - Refactorizar hacia arquitectura limpia
+  - Implementar DDD según dominio
+  - Testing para sistemas con IA
   
 - **Conceptos clave:**
-  - System vs User prompts
-  - Context window management
-  - Temperature y parámetros de generación
-  - Prompt templates básicos
+  - Hexagonal architecture
+  - Domain boundaries
+  - Testing non-deterministic systems
+  - SOLID with AI components
   
 - **Avances en proyecto:**
-  - Sistema de templates de prompts
-  - Memoria de conversación básica
-  - Primeros análisis de datos empresariales
-  
-- **Resultados esperados:**
-  - Gestor de prompts reutilizables
-  - Chat con memoria de contexto
-  - Análisis básico de CSV/JSON
-
----
-
-#### **Clase 3: "Multi-Provider: Abstracción y Flexibilidad"**
-- **Objetivos de aprendizaje:**
-  - Abstraer la capa de LLM providers
-  - Integrar múltiples modelos (Gemini + Claude/GPT)
-  - Implementar estrategias de fallback
-  
-- **Conceptos clave:**
-  - Adapter pattern para LLMs
-  - Unified response format
-  - Provider selection logic
-  - Cost comparison basics
-  
-- **Avances en proyecto:**
-  - Capa de abstracción para 2 providers
-  - Sistema automático de fallback
-  - Comparador de costos por consulta
-  
-- **Resultados esperados:**
-  - Soporte multi-provider funcional
-  - Switching automático por disponibilidad
-  - Dashboard de métricas básicas
-
----
-
-#### **Clase 4: "RAG Simplificado: Conocimiento Empresarial"**
-- **Objetivos de aprendizaje:**
-  - Implementar RAG básico con embeddings
-  - Procesar documentos empresariales
-  - Crear búsqueda semántica simple
-  
-- **Conceptos clave:**
-  - Embeddings y similitud vectorial
-  - Document chunking básico
-  - In-memory vector search
-  - Context injection
-  
-- **Avances en proyecto:**
-  - Pipeline de procesamiento de PDFs
-  - Base de conocimiento vectorial
-  - Q&A sobre documentos empresariales
-  
-- **Resultados esperados:**
-  - RAG funcional con ChromaDB/FAISS
-  - Búsqueda en documentos internos
-  - API de consultas contextualizadas
-
----
-
-#### **Clase 5: "Llevando IA a Producción: Mejores Prácticas"**
-- **Objetivos de aprendizaje:**
-  - Implementar logging y monitoreo
-  - Gestionar costos y quotas
-  - Asegurar aplicaciones con IA
-  
-- **Conceptos clave:**
-  - Structured logging for LLMs
-  - Cost tracking and alerts
-  - Basic prompt injection prevention
-  - Response caching strategies
-  
-- **Avances en proyecto:**
-  - Sistema de logs estructurados
-  - Cache de respuestas frecuentes
-  - Validación básica de inputs
-  
-- **Resultados esperados:**
-  - Aplicación production-ready
-  - Monitoreo de costos en tiempo real
-  - Seguridad básica implementada
-
----
-
-### **PARTE 2: REFACTORING Y CLEAN ARCHITECTURE** (9 horas)
-
-[Las clases 6-8 permanecen sin cambios ya que la solicitud fue solo para la Parte 1]
-
-#### **Clase 6: "Clean Architecture para Sistemas IA: Principios y Patrones"**
-- **Objetivos de aprendizaje:**
-  - Aplicar Clean Architecture a sistemas con IA
-  - Refactorizar hacia Domain-Driven Design
-  - Implementar testing en aplicaciones LLM
-  
-- **Conceptos clave:**
-  - Hexagonal Architecture for AI
-  - Domain entities vs AI responses
-  - Testing strategies for non-deterministic systems
-  - SOLID principles in AI context
-  
-- **Avances en proyecto:**
-  - Refactorizar hacia arquitectura hexagonal
-  - Separar dominio de infraestructura IA
-  - Suite de tests con mocks de LLM
-  
-- **Resultados esperados:**
   - Arquitectura limpia implementada
-  - 80% cobertura de tests
-  - Dominio desacoplado de IA
+  - Dominio separado de infraestructura
+  - Suite de tests completa
+  
+- **Resultados:**
+  - Sistema mantenible y testeable
+  - 80%+ cobertura de tests
+  - Documentación arquitectónica
 
----
-
-#### **Clase 7: "Microservicios IA: Descomposición y Comunicación"**
-- **Objetivos de aprendizaje:**
-  - Descomponer monolito en microservicios
-  - Implementar event-driven architecture
-  - Gestionar estado distribuido con IA
+#### **Clase 8: "AI-Powered DevOps y Evolución Continua"**
+- **Objetivos:**
+  - Implementar CI/CD avanzado
+  - Microservicios si aplica
+  - Automatización con IA
   
 - **Conceptos clave:**
-  - Service boundaries in AI systems
-  - Event sourcing for AI decisions
-  - Saga pattern for AI workflows
-  - Service mesh for LLM services
+  - GitOps for AI systems
+  - Automated testing pipelines
+  - Performance monitoring
+  - AI-assisted refactoring
   
 - **Avances en proyecto:**
-  - Extraer 3 microservicios core
-  - Implementar comunicación asíncrona
-  - Sistema de eventos para auditoría IA
+  - Pipeline completo implementado
+  - Deployment automatizado
+  - Monitoreo inteligente
   
-- **Resultados esperados:**
-  - Arquitectura de microservicios funcional
-  - Sistema de eventos implementado
-  - Trazabilidad completa de decisiones IA
-
----
-
-#### **Clase 8: "AI-Assisted Refactoring: El Futuro del Clean Code"**
-- **Objetivos de aprendizaje:**
-  - Usar IA para refactoring avanzado
-  - Implementar code review automatizado
-  - Crear pipeline de calidad con IA
-  
-- **Conceptos clave:**
-  - AI-powered code analysis
-  - Automated refactoring patterns
-  - Technical debt detection with AI
-  - Continuous architecture validation
-  
-- **Avances en proyecto:**
-  - Pipeline CI/CD con análisis IA
-  - Sistema de refactoring sugerido
-  - Dashboard de salud arquitectónica
-  
-- **Resultados esperados:**
-  - Pipeline DevOps completo con IA
-  - Reducción 70% en code smells
-  - Arquitectura auto-documentada
-
----
-
-### 🎯 **Competencias Finales:**
-- Integración profesional con LLMs desde cero
-- RAG y gestión de conocimiento empresarial
-- Clean Architecture aplicada a sistemas IA
-- Mejores prácticas de producción
-- Capacidad de evolucionar sistemas IA
+- **Resultados:**
+  - Sistema en producción
+  - Evolución continua habilitada
+  - Proyecto completado y presentable
